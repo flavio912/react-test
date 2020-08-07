@@ -29,6 +29,7 @@ export const getContacts = (params: any) => (dispatch: any) => {
       });
     })
     .catch((err) => {
+      console.log(err);
       console.log('Error occured when get contacts');
     });
 }
