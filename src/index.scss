@@ -1,0 +1,74 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.btn.purple, .btn.purple:hover, .btn.purple:active, .btn.purple:focus {
+  background: #46139f !important;
+  border-color: #46139f !important;
+  box-shadow: none !important;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.btn.orange, .btn.orange:hover, .btn.orange:active, .btn.orange:focus {
+  background: #ff7f50 !important;
+  border-color: #ff7f50 !important;
+  box-shadow: none !important;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.btn.purple-outlined, .btn.purple-outlined:hover, .btn.purple-outlined:active, .btn.purple-outlined:focus {
+  background: #fff !important;
+  border-color: #46139f !important;
+  color: #46139f;
+  box-shadow: none !important;
+
+  a {
+    color: #46139f;
+    text-decoration: none;
+  }
+}
+
+.modal {
+  .modal-header {
+    align-items: center;
+  }
+
+  .modal-body {
+    min-height: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  .modal-footer {
+    justify-content: flex-start;
+  }
+}
